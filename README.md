@@ -125,7 +125,7 @@ Also, since rainfall and yield patterns differ across crop types and locations, 
 
 ![Rainfall Analysis Dashboard](https://github.com/Chaithrakulal-23/Agriculture-Analytics-Dashboard-AWS-Snowflake-Power-BI-/blob/3c68ec5522d647a0efd976f62423be0a946c956c/rainfalldesk.png)
 
-![Temperature Analysis Dashboard](https://user-images.githubusercontent.com/your-id/temperature-analysis.jpg)
+![Temperature Analysis Dashboard](https://github.com/Chaithrakulal-23/Agriculture-Analytics-Dashboard-AWS-Snowflake-Power-BI-/blob/af748a5c8e9a7ae8fcd5a2773c1ef6a560d928e1/temperaturedesktop.png)
 
 ![Humidity Analysis Dashboard](https://user-images.githubusercontent.com/your-id/humidity-analysis.jpg)
 
