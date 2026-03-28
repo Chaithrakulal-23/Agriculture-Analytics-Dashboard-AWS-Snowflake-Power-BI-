@@ -118,7 +118,7 @@ Also, since rainfall and yield patterns differ across crop types and locations, 
 
 ![Dashboard Snapshot Power BI Service](https://github.com/Chaithrakulal-23/Agriculture-Analytics-Dashboard-AWS-Snowflake-Power-BI-/blob/abe421d0c760056a4beb9045e4e37f7fa67e0404/humiditypowerapp.png)
 
-![Dashboard Snapshot Power BI Service](https://user-images.githubusercontent.com/your-id/dashboard-powerbi-service.jpg)
+![Dashboard Snapshot Power BI Service](https://github.com/Chaithrakulal-23/Agriculture-Analytics-Dashboard-AWS-Snowflake-Power-BI-/blob/f6dced48d03aabbc7b7e023c504da696fc3e8e95/yieldpowewrapp.png)
 
 # Report Snapshot (Power BI Desktop)
 
