@@ -63,7 +63,7 @@ Also, since rainfall and yield patterns differ across crop types and locations, 
     - `1200–2800` → `Medium`
     - `2800–4103` → `High`
 
-  ![Transformed Table with Year Group and Rainfall Group Columns](https://github.com/Chaithrakulal-23/Agriculture-Analytics-Dashboard-AWS-Snowflake-Power-BI-/blob/a465317db660328c5fbdb8646d446385533b1a64/YRGRPCLM.png)
+  ![Transformed Table Rainfall Group Columns](https://github.com/Chaithrakulal-23/Agriculture-Analytics-Dashboard-AWS-Snowflake-Power-BI-/blob/98eb4b5f2e0bbcd288f766f98228c2079060ae2e/raifallgrpresult.png)
 
 - **Step 8 :** Connected **Power BI Desktop** to Snowflake:
   - Used **Get Data → Snowflake** in Power BI.
