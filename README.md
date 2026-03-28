@@ -16,7 +16,7 @@ Also, since rainfall and yield patterns differ across crop types and locations, 
 
 - **Step 1 :** Loaded the data_season dataset (Excel file) into AWS S3 by creating a dedicated S3 bucket via the AWS Management Console and uploading the seasonal dataset.
 
-  ![S3 Bucket with Dataset](https://user-images.githubusercontent.com/your-id/s3-bucket-upload.jpg)
+  ![S3 Bucket with Dataset](https://github.com/Chaithrakulal-23/Agriculture-Analytics-Dashboard-AWS-Snowflake-Power-BI-/blob/6fb9d3c9f1311644f789fc330786bdb452e70a74/s3bucket.png)
 
 - **Step 2 :** Established a secure connection between AWS S3 and Snowflake by creating an IAM Role in AWS:
   - Navigated to IAM → Create Role → Selected AWS Account type.
