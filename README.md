@@ -55,14 +55,48 @@ Also, since rainfall and yield patterns differ across crop types and locations, 
     - `2004–2009` → `Y1`
     - `2010–2015` → `Y2`
     - `2016–2019` → `Y3`
+    ```sql
+     
+    update agriculture
+    set Year_Grop = 'Y1'
+    Where Year >= 2004 and year <=2009
+    
+    
+    update  agriculture
+    set Year_Grop = 'Y2'
+    Where Year >= 2010 and year <=2015
+    
+    update agriculture
+    set Year_Grop = 'Y3'
+    Where Year >= 2016 and year <=2019
 
-   ![Year Group Columns](https://github.com/Chaithrakulal-23/Agriculture-Analytics-Dashboard-AWS-Snowflake-Power-BI-/blob/a465317db660328c5fbdb8646d446385533b1a64/YRGRPCLM.png)
+  ```
+ ![Year Group Columns](https://github.com/Chaithrakulal-23/Agriculture-Analytics-Dashboard-AWS-Snowflake-Power-BI-/blob/a465317db660328c5fbdb8646d446385533b1a64/YRGRPCLM.png)
 
   - Added a new **Rainfall Group** column:
-    - `255–1000` → `Low`
-    - `1200–2800` → `Medium`
-    - `2800–4103` → `High`
+  - 
+ ```sql
+     
 
+//Min 255 Max 4103
+//if rainfall 255-1200  set LOW
+//if rainfall 1200 -2800  set MEDIUM
+//if rainfall 2800-4103  set High
+
+update agriculture
+set Rainfall_groups ='Low'
+where rainfall>=255 and rainfall<1200
+
+update agriculture
+set Rainfall_groups ='Medium'
+where rainfall>=1200 and rainfall<2800
+
+update agriculture
+set Rainfall_groups ='High'
+where rainfall>=2800 
+
+
+  ```
   ![Transformed Table Rainfall Group Columns](https://github.com/Chaithrakulal-23/Agriculture-Analytics-Dashboard-AWS-Snowflake-Power-BI-/blob/98eb4b5f2e0bbcd288f766f98228c2079060ae2e/raifallgrpresult.png)
 
 - **Step 8 :** Connected **Power BI Desktop** to Snowflake:
