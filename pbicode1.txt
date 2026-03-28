@@ -1,0 +1,149 @@
+ CREATE OR REPLACE STORAGE INTEGRATION PBI_Integration1
+  TYPE = EXTERNAL_STAGE
+  STORAGE_PROVIDER = 'S3'
+  ENABLED = TRUE
+  STORAGE_AWS_ROLE_ARN = 'arn:aws:iam::396231126183:role/powerbi.role'
+  STORAGE_ALLOWED_LOCATIONS = ('s3://powerbi235.project/')
+  COMMENT = 'Optional Comment'
+
+
+  //description Integration Object
+  desc integration PBI_Integration1;
+
+
+
+--------------------------------------------
+CREATE database PowerBI11;
+
+create schema PBI_Data1;
+
+create table PBI_Dataset11(
+Year	int,
+Location string,
+Area int,
+Rainfall float,
+Temperature float,
+Soil_type string,
+Irrigation string,
+yeilds int,
+Humidity float,
+Crops string, 
+Price int,
+Season string
+
+);
+
+
+select * from PBI_Dataset11;
+
+//drop database test;
+DESC INTEGRATION PBI_INTEGRATION1;
+
+create stage PowerBI11.PBI_Data1.pbi_stage1
+url = 's3://powerbi235.project/'
+storage_integration = PBI_Integration1
+
+//desc stage s1
+
+//drop stage s1;
+
+DESC INTEGRATION PBI_INTEGRATION1;
+copy into PBI_Dataset11 
+from @pbi_stage1
+file_format = (type=csv field_delimiter=',' skip_header=1 )
+on_error = 'continue'
+
+select * from PBI_DATASET11;
+
+list @pbi_stage1
+
+SELECT YEAR,count(*) from PBI_Dataset11 GROUP by YEAR;
+
+--copying the data from original table to perform transformation
+
+create table agriculture as 
+select  * from PBI_DATASET11
+
+select  * from agriculture
+
+--Updating rainfall column
+
+update  agriculture
+set rainfall=1.1*rainfall
+
+select  * from agriculture
+
+select  rainfall from agriculture
+
+
+--Updating area column
+update agriculture
+set area=0.9*area
+
+select  * from agriculture
+
+
+select area from agriculture
+
+--Adding column 
+//if the Year value is between 2004-2009 then  it comes under Y1 category 
+//if the Year value is between 2010-2015 then  it comes under Y2 category 
+// if the Year value is between 20016-2019 then  it comes under Y3 category 
+
+Alter table agriculture
+add Year_Grop String
+
+select  * from agriculture
+
+
+--updating Year_grop column
+
+update agriculture
+set Year_Grop = 'Y1'
+Where Year >= 2004 and year <=2009
+
+
+update  agriculture
+set Year_Grop = 'Y2'
+Where Year >= 2010 and year <=2015
+
+update agriculture
+set Year_Grop = 'Y3'
+Where Year >= 2016 and year <=2019
+
+select  Year_grop from agriculture
+
+
+
+
+
+--Adding colummn rainfallgroups
+//Min 255 Max 4103
+//if rainfall 255-1200  set LOW
+//if rainfall 1200 -2800  set MEDIUM
+//if rainfall 2800-4103  set High
+
+alter table agriculture
+Add Rainfall_groups string;
+
+select * from agriculture
+
+update agriculture
+set Rainfall_groups ='Low'
+where rainfall>=255 and rainfall<1200
+
+update agriculture
+set Rainfall_groups ='Medium'
+where rainfall>=1200 and rainfall<2800
+
+update agriculture
+set Rainfall_groups ='High'
+where rainfall>=2800 
+
+select Rainfall_groups from agriculture
+
+select * from agriculture
+
+
+
+
