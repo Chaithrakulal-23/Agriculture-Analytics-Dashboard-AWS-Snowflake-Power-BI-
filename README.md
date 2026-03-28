@@ -43,7 +43,7 @@ Also, since rainfall and yield patterns differ across crop types and locations, 
 
   ![Table](https://github.com/Chaithrakulal-23/Agriculture-Analytics-Dashboard-AWS-Snowflake-Power-BI-/blob/634b6b9ae06d87b1508d0ef55fdc4ee14db4af7f/createtable.png)
 
-    ![Snowflake Database Schema Stage Table](https://github.com/Chaithrakulal-23/Agriculture-Analytics-Dashboard-AWS-Snowflake-Power-BI-/blob/634b6b9ae06d87b1508d0ef55fdc4ee14db4af7f/createtable.png)
+    ![Snowflake Database Schema Stage Table](https://github.com/Chaithrakulal-23/Agriculture-Analytics-Dashboard-AWS-Snowflake-Power-BI-/blob/e9c4c238105a39ce0f2cc4d91a7d21cc3b65652c/stage.png)
 
 - **Step 6 :** Performed **Data Profiling** to understand the dataset structure, column types, and value distributions.
 
