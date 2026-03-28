@@ -70,7 +70,7 @@ Also, since rainfall and yield patterns differ across crop types and locations, 
   - Pasted the Snowflake account URL and authenticated.
   - Selected the transformed database and loaded it into Power BI Desktop.
 
-  ![Power BI Get Data Snowflake Connection](https://user-images.githubusercontent.com/your-id/powerbi-snowflake-connection.jpg)
+  ![Power BI Get Data Snowflake Connection](https://github.com/Chaithrakulal-23/Agriculture-Analytics-Dashboard-AWS-Snowflake-Power-BI-/blob/68141e4f540679b686bd67c70d3ff3c51574af88/connectsnwpwb.png)
 
 - **Step 9 :** Built the following analysis pages using **Bar Charts** for all visuals:
 
@@ -80,7 +80,7 @@ Also, since rainfall and yield patterns differ across crop types and locations, 
   - Average Rainfall by Crop
   - Average Rainfall by Location
 
-  ![Rainfall Analysis Dashboard](https://user-images.githubusercontent.com/your-id/rainfall-analysis.jpg)
+ 
 
   **Temperature Analysis**
   - Average Temperature by Year
@@ -88,7 +88,7 @@ Also, since rainfall and yield patterns differ across crop types and locations, 
   - Average Temperature by Crop
   - Average Temperature by Location
 
-  ![Temperature Analysis Dashboard](https://user-images.githubusercontent.com/your-id/temperature-analysis.jpg)
+
 
   **Humidity Analysis**
   - Average Humidity by Year
@@ -96,7 +96,6 @@ Also, since rainfall and yield patterns differ across crop types and locations, 
   - Average Humidity by Crop
   - Average Humidity by Location
 
-  ![Humidity Analysis Dashboard](https://user-images.githubusercontent.com/your-id/humidity-analysis.jpg)
 
   **Yield Analysis**
   - Average Yield by Year
@@ -104,8 +103,7 @@ Also, since rainfall and yield patterns differ across crop types and locations, 
   - Average Yield by Crop
   - Average Yield by Location
 
-  ![Yield Analysis Dashboard](https://user-images.githubusercontent.com/your-id/yield-analysis.jpg)
-
+ 
 - **Step 10 :** Published the completed report to **Power BI Cloud Service** for stakeholder access.
 
   ![Power BI Publish Success Message](https://user-images.githubusercontent.com/your-id/powerbi-publish-success.jpg)
@@ -116,9 +114,23 @@ Also, since rainfall and yield patterns differ across crop types and locations, 
 
 ![Dashboard Snapshot Power BI Service](https://user-images.githubusercontent.com/your-id/dashboard-powerbi-service.jpg)
 
+![Dashboard Snapshot Power BI Service](https://user-images.githubusercontent.com/your-id/dashboard-powerbi-service.jpg)
+
+![Dashboard Snapshot Power BI Service](https://user-images.githubusercontent.com/your-id/dashboard-powerbi-service.jpg)
+
+![Dashboard Snapshot Power BI Service](https://user-images.githubusercontent.com/your-id/dashboard-powerbi-service.jpg)
+
 # Report Snapshot (Power BI Desktop)
 
 ![Report Snapshot Power BI Desktop](https://user-images.githubusercontent.com/your-id/dashboard-powerbi-desktop.jpg)
+
+![Rainfall Analysis Dashboard](https://user-images.githubusercontent.com/your-id/rainfall-analysis.jpg)
+
+![Temperature Analysis Dashboard](https://user-images.githubusercontent.com/your-id/temperature-analysis.jpg)
+
+![Humidity Analysis Dashboard](https://user-images.githubusercontent.com/your-id/humidity-analysis.jpg)
+
+![Yield Analysis Dashboard](https://user-images.githubusercontent.com/your-id/yield-analysis.jpg)
 
 ---
 
