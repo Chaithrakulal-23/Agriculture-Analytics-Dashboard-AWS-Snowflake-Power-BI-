@@ -22,7 +22,7 @@ Also, since rainfall and yield patterns differ across crop types and locations, 
   - Navigated to IAM → Create Role → Selected AWS Account type.
   - Provided a placeholder External ID and attached the **AmazonS3FullAccess** permission policy.
   - Named the role and noted the generated **ARN** and **Trust Policy**.
- ![Role](https://github.com/Chaithrakulal-23/Agriculture-Analytics-Dashboard-AWS-Snowflake-Power-BI-/blob/67c0062ec089869e7d36b8d9f82e275cda202fee/integrations3%26snowflake.png)
+ ![Role](https://github.com/Chaithrakulal-23/Agriculture-Analytics-Dashboard-AWS-Snowflake-Power-BI-/blob/9402765349ba026cb3d7b4795b0fa09351006cd3/role.png)
 
 - **Step 3 :** In Snowflake, created a **Storage Integration Object** using the IAM Role ARN to authorize Snowflake to read from the S3 bucket.
 
