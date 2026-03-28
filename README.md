@@ -122,9 +122,8 @@ Also, since rainfall and yield patterns differ across crop types and locations, 
 
 # Report Snapshot (Power BI Desktop)
 
-![Report Snapshot Power BI Desktop](https://user-images.githubusercontent.com/your-id/dashboard-powerbi-desktop.jpg)
 
-![Rainfall Analysis Dashboard](https://user-images.githubusercontent.com/your-id/rainfall-analysis.jpg)
+![Rainfall Analysis Dashboard](https://github.com/Chaithrakulal-23/Agriculture-Analytics-Dashboard-AWS-Snowflake-Power-BI-/blob/3c68ec5522d647a0efd976f62423be0a946c956c/rainfalldesk.png)
 
 ![Temperature Analysis Dashboard](https://user-images.githubusercontent.com/your-id/temperature-analysis.jpg)
 
