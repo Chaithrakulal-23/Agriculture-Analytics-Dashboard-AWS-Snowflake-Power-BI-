@@ -106,7 +106,7 @@ Also, since rainfall and yield patterns differ across crop types and locations, 
  
 - **Step 10 :** Published the completed report to **Power BI Cloud Service** for stakeholder access.
 
-  ![Power BI Publish Success Message](https://user-images.githubusercontent.com/your-id/powerbi-publish-success.jpg)
+  ![Power BI Publish Success Message](https://github.com/Chaithrakulal-23/Agriculture-Analytics-Dashboard-AWS-Snowflake-Power-BI-/blob/b0f367b66fdbe028d02ed014907a4c3dc85df556/publipower.png)
 
 ---
 
