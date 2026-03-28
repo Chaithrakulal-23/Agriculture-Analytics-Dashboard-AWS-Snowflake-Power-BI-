@@ -41,7 +41,9 @@ Also, since rainfall and yield patterns differ across crop types and locations, 
   - Created a **Stage** pointing to the S3 bucket location.
   - Loaded data from the Stage into the Snowflake table.
 
-  ![Snowflake Database Schema Stage Table](https://user-images.githubusercontent.com/your-id/snowflake-db-schema-table.jpg)
+  ![Table](https://github.com/Chaithrakulal-23/Agriculture-Analytics-Dashboard-AWS-Snowflake-Power-BI-/blob/634b6b9ae06d87b1508d0ef55fdc4ee14db4af7f/createtable.png)
+
+    ![Snowflake Database Schema Stage Table](https://github.com/Chaithrakulal-23/Agriculture-Analytics-Dashboard-AWS-Snowflake-Power-BI-/blob/634b6b9ae06d87b1508d0ef55fdc4ee14db4af7f/createtable.png)
 
 - **Step 6 :** Performed **Data Profiling** to understand the dataset structure, column types, and value distributions.
 
