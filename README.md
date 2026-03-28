@@ -34,7 +34,7 @@ Also, since rainfall and yield patterns differ across crop types and locations, 
   ```
   Pasted these values into the IAM Role's Trust Policy in AWS and updated it to complete the secure handshake.
 
-  ![DESC Integration Output + Updated Trust Policy](https://user-images.githubusercontent.com/your-id/desc-integration-trust-policy.jpg)
+  ![DESC Integration Output + Updated Trust Policy](https://github.com/Chaithrakulal-23/Agriculture-Analytics-Dashboard-AWS-Snowflake-Power-BI-/blob/7c8a5d406e2ff90e541326e2fbd3df52af551f2a/editarn%26extid.png)
 
 - **Step 5 :** In Snowflake, set up the data pipeline:
   - Created a **Database**, **Schema**, and **Table** to store the agriculture data.
